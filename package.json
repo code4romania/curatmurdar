@@ -1,0 +1,50 @@
+{
+  "name": "express-boiler",
+  "version": "0.1.0",
+  "description": "Express JS Boilerplate",
+  "main": "server.js",
+  "engine": "node >= 6.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --progress",
+    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js --progress",
+    "build-win": "cmd /V /C \"set \"NODE_ENV=production\" && echo !NODE_ENV!\" && webpack --config ./webpack.production.config.js --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pbogdan03/expressjs-boiler.git"
+  },
+  "keywords": [
+    "express",
+    "boilerplate",
+    "node"
+  ],
+  "author": "Bogdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbogdan03/expressjs-boiler/issues"
+  },
+  "homepage": "https://github.com/pbogdan03/expressjs-boiler#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "colors": "^1.1.2",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.19.0",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.7.0",
+    "nodemon": "^1.9.2",
+    "postcss-loader": "^0.9.1",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "reset-css": "^2.2.0"
+  }
+}
