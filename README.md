@@ -3,7 +3,9 @@
 ## Descriere
 
 Prezentare si comparatie energie verde (regenerabila) vs energie neregenerabila.
-Grafic tip steamgraph interactiv in functie de perioada de timp / autoupdate din API de la [Transelectrica](http://www.transelectrica.ro/widget/web/tel/sen-grafic/-/SENGrafic_WAR_SENGraficportlet)
+Grafic tip streamgraph interactiv in functie de perioada de timp / autoupdate din API de la [Transelectrica](http://www.transelectrica.ro/widget/web/tel/sen-grafic/-/SENGrafic_WAR_SENGraficportlet)
+
+Varianta actuala foloseste date in format CSV pentru anul 2015. Fisierul este incarcat de `dsv-loader` pentru webpack.
 
 ## Utile
 

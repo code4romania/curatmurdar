@@ -30,6 +30,10 @@ module.exports = {
 			{
 				test: /\.scss$/,
 				loader: 'style!css!postcss!sass'
+			},
+			{
+				test: /\.csv$/,
+				loader: 'dsv-loader?delimiter=;'
 			}
 		]
 	},
