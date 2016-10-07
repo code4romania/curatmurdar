@@ -12,6 +12,12 @@ Varianta actuala foloseste date in format CSV pentru anul 2015. Fisierul este in
   - [USA Nuclear Energy](https://github.com/gavinr/usa-nuclear-energy-plants/blob/master/usa-nuclear-energy-plants.geojson)
   - [EU Energy Stats](http://ec.europa.eu/eurostat/web/energy/data/main-tables)
 
+## TODOS
+
+1. Curatat datele, momentan setul de la Transelectrica vine cu masuratori la fiecare 10 min ceea ce e mult prea des, ar
+fi de-ajuns o masuratoare pe zi, deci ar putea fi curatate manual sa nu fie incarcate de 24x6 ori mai multe date, sau
+in js. 
+
 ## Tech stuff
 
 ### Setup
