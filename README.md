@@ -2,10 +2,10 @@
 
 ## Descriere
 
-Prezentare si comparatie energie verde (regenerabila) vs energie neregenerabila.
-Grafic tip streamgraph interactiv in functie de perioada de timp / autoupdate din API de la [Transelectrica](http://www.transelectrica.ro/widget/web/tel/sen-grafic/-/SENGrafic_WAR_SENGraficportlet)
+Prezentare și comparație energie verde (regenerabilă) vs energie neregenerabilă.
+Grafic tip streamgraph interactiv în funcție de perioada de timp / autoupdate din API de la [Transelectrica](http://www.transelectrica.ro/widget/web/tel/sen-grafic/-/SENGrafic_WAR_SENGraficportlet)
 
-Varianta actuala foloseste date in format CSV pentru anul 2015. Fisierul este incarcat de `dsv-loader` pentru webpack.
+Varianta actuală folosește date in format CSV pentru anul 2015. Fișierul este încărcat de `dsv-loader` pentru webpack.
 
 ## Utile
 
@@ -14,8 +14,8 @@ Varianta actuala foloseste date in format CSV pentru anul 2015. Fisierul este in
 
 ## TODOS
 
-1. Curatat datele mai eficient, momentan setul de la Transelectrica vine cu masuratori la fiecare 10 min ceea ce e mult prea des, ar
-fi de-ajuns o masuratoare pe zi. Sunt curatate in JS, poate e o solutie mai eficienta de atat
+1. Curățat datele mai eficient, momentan setul de la Transelectrica vine cu măsuratori la fiecare 10 min ceea ce e mult prea des, ar
+fi de-ajuns o măsuratoare pe zi. Sunt curățate in JS, poate e o soluție mai eficientă de atât
 
 ## Tech stuff
 
